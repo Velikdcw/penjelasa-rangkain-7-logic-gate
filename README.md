@@ -1,4 +1,4 @@
-# penjelasa-rangkain-7-logic-gate
+# penjelasan-rangkain-7-logic-gate
 # 1. Gerbang AND 
 ![gerbang-and](gerbang-and.png)
 
