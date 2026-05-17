@@ -1,6 +1,8 @@
 # penjelasan-rangkain-7-logic-gate
+## Link Tinkercad
+https://www.tinkercad.com/things/80MAp5CFO0z-rangkaian-gerbang-logika/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=buLiAYDOueHLUGVCqFt08tow7t58n0rc2qx8vVMUZbM
 # 1. Gerbang AND 
-![gerbang-and](gerbang-and.png)
+![and](and.jpeg)
 
 Gerbang AND adalah gerbang logika yang menghasilkan output bernilai 1 hanya jika seluruh input bernilai 1. Jika salah satu input bernilai 0, maka output akan menjadi 0.
 Gerbang AND dapat dianalogikan seperti dua saklar lampu yang dipasang seri. Lampu hanya menyala apabila kedua saklar sama-sama ON.
@@ -14,7 +16,7 @@ Cara Kerja
 Hal ini menunjukkan bahwa semua input harus bernilai 1 agar output menjadi 1.
 
 # 2. Gerbang OR 
-![gerbang-or](gerbang-or.png)
+![or](or.jpeg)
 
 Gerbang OR adalah gerbang logika yang menghasilkan output 1 jika salah satu input bernilai 1. Output hanya menjadi 0 jika seluruh input bernilai 0.
 Gerbang OR dapat dianalogikan seperti dua saklar paralel. Lampu akan menyala jika salah satu saklar dinyalakan.
@@ -25,7 +27,7 @@ Cara Kerja
 - Jika semua input 1 maka output tetap 1
 
 # 3. Gerbang NOT
-![gerbang-not](gerbang-not.png)
+![not](not.jpeg)
 
 Gerbang NOT disebut juga inverter karena berfungsi membalik nilai logika input.
 
@@ -39,40 +41,42 @@ Cara Kerja
 - Gerbang NOT bekerja dengan cara membalik kondisi logika masukan.
 
 # 4. Gerbang NAND
-![gerbang-not](gerbang-not.png)
+![nand](nand.jpeg)
 
+Gerbang NAND merupakan gabungan dari gerbang AND dan NOT. Output akan menjadi kebalikan dari hasil AND.
+Gerbang NAND menghasilkan output 0 hanya ketika semua input bernilai 1.
 
-
-
-
-
-
-
+Cara Kerja
+- Semua kombinasi menghasilkan output 1
+- Kecuali jika semua input bernilai 1 maka output menjadi 0
 
 # 5. Gerbang NOR
-![gerbang-not](gerbang-not.png)
+![nor](nor.jpeg)
 
+Gerbang NOR adalah kombinasi dari OR dan NOT. Output akan bernilai 1 hanya jika semua input bernilai 0.
 
-
-
-
-
-
-
+Cara Kerja
+- Output bernilai 1 jika semua input 0
+- Jika salah satu input 1 maka output menjadi 0
 
 # 6. Gerbang XOR
-![gerbang-not](gerbang-not.png)
+![xor](xor.jpeg)
 
+XOR (Exclusive OR) menghasilkan output 1 jika kedua input berbeda.
+Jika kedua input sama, maka output bernilai 0.
 
-
-
-
-
-
-
+Cara Kerja
+- Input berbeda → output 1
+- Input sama → output 0
 
 # 7. Gerbang XNOR
-![gerbang-not](gerbang-not.png)
+![xnor](xnor.jpeg)
+
+XNOR adalah kebalikan dari XOR. Output bernilai 1 jika kedua input sama.
+
+Cara Kerja
+- Input sama → output 1
+- Input berbeda → output 0
 
 
 
